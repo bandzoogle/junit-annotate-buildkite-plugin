@@ -34,6 +34,8 @@ configuration:
       type: integer
     ruby-image:
       type: string
+    style:
+      type: string
   required:
     - artifacts
   additionalProperties: false
